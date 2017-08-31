@@ -95,7 +95,6 @@ As stated, this loader needs an text loader to load the HTML template, like the 
 ## `awesome-component/index.js` (example)
 
 ```js
-// import Polymer from 'polymer'; Aaaaaaaah if we could...!
 
 import {Element as PolymerElement} from '@polymer/polymer/polymer-element';
 import template from './template.html';
@@ -127,10 +126,6 @@ import './src/awesome-component';
 
 ```
 
-
-## Contribute
-
-This is currently a POC, so if you have some ideas or better solutions just open an issue and let's talk! :+1:
 
 ## License
 

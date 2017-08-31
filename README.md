@@ -2,6 +2,7 @@
 
 [![GitHub release](https://img.shields.io/github/release/PolymerX/postcss-html-loader.svg?style=flat-square)](https://github.com/PolymerX/postcss-html-loader)
 [![Build Status](https://travis-ci.org/PolymerX/postcss-html-loader.svg?branch=master&style=flat-square)](https://travis-ci.org/PolymerX/postcss-html-loader)
+[![Build status](https://ci.appveyor.com/api/projects/status/0ksik9f3euryjq9x?svg=true)](https://ci.appveyor.com/project/LasaleFamine/postcss-html-loader)
 [![Coverage Status](https://coveralls.io/repos/github/PolymerX/postcss-html-loader/badge.svg?branch=master&style=flat-square)](https://coveralls.io/github/PolymerX/postcss-html-loader?branch=master)
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg?style=flat-square)](https://github.com/sindresorhus/xo)
 [![postcss-html-loader](https://img.shields.io/badge/polymerX-postcss--html--loader-red.svg?style=flat-square)](https://github.com/PolymerX/postcss-html-loader)

@@ -1,0 +1,70 @@
+{
+  "name": "postcss-html-loader",
+  "version": "1.0.0",
+  "description": "PostCSS loader for loading and processing styles from within HTML templates.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "xo && nyc ava",
+    "test:integrations": "ava test/integrations",
+    "test:travis": "xo && nyc ava && nyc report --reporter=text-lcov | coveralls"
+  },
+  "xo": {
+    "space": true,
+    "rules": {
+      "eol-last": 0
+    },
+    "ignores": [
+      "test/integrations/**/*"
+    ]
+  },
+  "ava": {
+    "files": [
+      "test/**/*.test.js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PolymerX/postcss-html-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PolymerX/postcss-html-loader/issues"
+  },
+  "homepage": "https://github.com/PolymerX/postcss-html-loader#readme",
+  "author": "LasaleFamine <info@godev.space>",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 6"
+  },
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "css",
+    "postcss",
+    "postcss-runner",
+    "webpack",
+    "webpack-loader",
+    "polymer",
+    "polymer-loader",
+    "polymer-loader-postcss",
+    "postcss-html-loader",
+    "postcss-polymer-loader"
+  ],
+  "dependencies": {
+    "fs-extra": "4.0.1",
+    "loader-utils": "1.1.0",
+    "parse5": "3.0.2",
+    "postcss": "6.0.9",
+    "postcss-load-config": "1.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "7.1.2",
+    "ava": "0.22.0",
+    "coveralls": "2.13.1",
+    "execa": "0.8.0",
+    "nyc": "11.1.0",
+    "text-loader": "0.0.1",
+    "webpack": "3.5.5",
+    "xo": "0.18.2"
+  }
+}

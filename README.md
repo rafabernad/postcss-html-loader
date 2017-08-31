@@ -1,10 +1,10 @@
-# PostCSS - Polymer Loader
+# PostCSS - HTML Loader
 
 [![GitHub release](https://img.shields.io/github/release/PolymerX/postcss-html-loader.svg?style=flat-square)](https://github.com/PolymerX/postcss-html-loader)
 [![Build Status](https://travis-ci.org/PolymerX/postcss-html-loader.svg?branch=master&style=flat-square)](https://travis-ci.org/PolymerX/postcss-html-loader)
 [![Coverage Status](https://coveralls.io/repos/github/PolymerX/postcss-html-loader/badge.svg?branch=master&style=flat-square)](https://coveralls.io/github/PolymerX/postcss-html-loader?branch=master)
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg?style=flat-square)](https://github.com/sindresorhus/xo)
-[![postcss-html-loader](https://img.shields.io/badge/polymerX-postcss--polymer--loader-%23435877.svg?style=flat-square)](https://github.com/PolymerX/postcss-html-loader)
+[![postcss-html-loader](https://img.shields.io/badge/polymerX-postcss--html--loader-red.svg?style=flat-square)](https://github.com/PolymerX/postcss-html-loader)
 
 > PostCSS Webpack loader for HTML templates (usually for Polymer 3.x). Works in combination with the [text-loader](https://www.npmjs.com/package/text-loader).
 

@@ -5,11 +5,12 @@ environment:
 install:
   - ps: Install-Product node $env:nodejs_version
   - npm -g install npm@latest
-  - npm install
+  - npm install -g yarn
+  - yarn
 
 test_script:
   - node --version
-  - npm --version
-  - npm test
+  - yarn --version
+  - yarn test
 
 build: off

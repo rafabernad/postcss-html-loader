@@ -1,5 +1,7 @@
 # PostCSS - HTML Loader
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/PolymerX/postcss-html-loader.svg)](https://greenkeeper.io/)
+
 [![GitHub release](https://img.shields.io/github/release/PolymerX/postcss-html-loader.svg?style=flat-square)](https://github.com/PolymerX/postcss-html-loader)
 [![Build Status](https://travis-ci.org/PolymerX/postcss-html-loader.svg?branch=master&style=flat-square)](https://travis-ci.org/PolymerX/postcss-html-loader)
 [![Build status](https://ci.appveyor.com/api/projects/status/0ksik9f3euryjq9x?svg=true)](https://ci.appveyor.com/project/LasaleFamine/postcss-html-loader)

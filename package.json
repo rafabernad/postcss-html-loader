@@ -4,6 +4,7 @@
   "description": "PostCSS loader for loading and processing styles from within HTML templates.",
   "main": "src/index.js",
   "scripts": {
+    "release": "standard-version",
     "test": "xo && nyc ava",
     "test:integrations": "ava test/integrations",
     "test:travis": "xo && nyc ava && nyc report --reporter=text-lcov | coveralls"
@@ -63,6 +64,7 @@
     "coveralls": "2.13.2",
     "execa": "0.8.0",
     "nyc": "11.2.1",
+    "standard-version": "4.2.0",
     "text-loader": "0.0.1",
     "webpack": "3.6.0",
     "xo": "0.18.2"

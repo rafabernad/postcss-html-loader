@@ -7,6 +7,7 @@ const getBody = require('./lib/get-body');
 const getPostcssSources = require('./lib/get-postcss-sources');
 const processPostcss = require('./lib/process-postcss');
 const fixTemplate = require('./lib/fix-template');
+const fullPaths = require('./lib/full-paths');
 
 module.exports = function (source) {
   const cb = this.async();
@@ -20,6 +21,8 @@ module.exports = function (source) {
   const parsed = parse5.parse(source);
   const body = getBody(parsed);
   const sourcesFilePath = getPostcssSources(body);
+
+  fullPaths(sourcesFilePath, this.resourcePath).forEach(this.addDependency);
 
   postcssrc()
     .then(config => processPostcss(sourcesFilePath, htmlFilePath, config))
